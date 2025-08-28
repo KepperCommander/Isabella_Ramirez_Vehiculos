@@ -35,6 +35,4 @@ public class Propietario
 }
 
 
-
-
-
+conflicto 1
