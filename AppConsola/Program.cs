@@ -1,5 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+
 Console.WriteLine("Hello, World!");
+
 
 public class Vehiculos
 {
@@ -10,4 +12,29 @@ public class Vehiculos
     public Tipos? Tipo;
     public List<Revisiones>? Revisiones;
 }
+
+
+public class Tipos
+{
+    public int Id;
+    public string? Nombre;
+}
+
+public class Revisiones
+{
+    public int Id;
+    public DateTime Fecha;
+    public string? Observaciones;
+}
+
+public class Propietario
+{
+    public int Id;
+    public string? Nombre;
+    public string? Documento;
+}
+
+
+
+
 
