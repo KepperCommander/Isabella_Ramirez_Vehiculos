@@ -34,5 +34,5 @@ public class Propietario
     public string? Documento;
 }
 
-
-conflicto 1
+#conflicto 2
+    
